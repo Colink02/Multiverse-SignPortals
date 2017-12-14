@@ -50,7 +50,7 @@ public class MVSPBlockListener implements Listener {
             return;
         }
         this.plugin.log(Level.FINER, "Sign changed");
-        if (event.getLine(1).equalsIgnoreCase("[mv]") || event.getLine(1).equalsIgnoreCase("[multiverse]")) {
+        if (event.getLine(0).equalsIgnoreCase("[Join]")) {
             createMultiverseSignPortal(event);
         } else {
             checkForHack(event);
