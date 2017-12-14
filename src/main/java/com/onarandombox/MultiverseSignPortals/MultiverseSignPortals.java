@@ -44,6 +44,7 @@ public class MultiverseSignPortals extends JavaPlugin implements MVPlugin {
             Logging.severe("Your of Core Protocol Level is: " + this.core.getProtocolVersion());
             Logging.severe("Grab an updated copy at: ");
             Logging.severe("http://dev.bukkit.org/bukkit-plugins/multiverse-core/");
+            Logging.severe("WARNING: This Plugin has been recoded by Colink02, if you Update the other features added will not work!");
             getServer().getPluginManager().disablePlugin(this);
             return;
         }
